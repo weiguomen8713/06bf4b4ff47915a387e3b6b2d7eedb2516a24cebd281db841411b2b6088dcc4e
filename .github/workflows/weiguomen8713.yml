@@ -1,25 +1,19 @@
 name: weiguomen8713
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 5/6 * * *'
+    - cron: '15 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: weiguomen8713
         env:
-          jouu26711: ${{ secrets.jouu26711 }}
+          g2: ${{ secrets.g2 }}
         run: |
-          echo $jouu26711 | jq -r .ld390 | /bin/bash
-          echo $muwdz10661 | jq -r .i5 | /bin/bash
-          echo $n765 | jq -r .h0993 | /bin/bash
-          echo $f7077 | jq -r .yg90167 | /bin/bash
-          echo $zo94007 | jq -r .iavwj2 | /bin/bash
-          echo $iou2 | jq -r .qfmqc74 | /bin/bash
-          echo $ndzgn165 | jq -r .nhmb8 | /bin/bash
-          echo $e06582 | jq -r .ebawd9 | /bin/bash
-          echo $knz5 | jq -r .yx6740 | /bin/bash
+          echo $g2 | jq -r .lodu646 | /bin/bash
+          echo $atliy5919 | jq -r .m865 | /bin/bash
 
